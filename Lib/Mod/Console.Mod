@@ -1,10 +1,10 @@
-MODULE Console;
+MODULE [foreign] Console; IMPORT SYSTEM;
 
 TYPE
-  Coords* = SHORTINT;
+  Coords* = INT8;
 
-PROCEDURE At* (x, y: Coords); END At;
-PROCEDURE Clear* ; END Clear;
-PROCEDURE WriteCh* (ch: CHAR); END WriteCh;
+PROCEDURE- At* (x, y: Coords);
+PROCEDURE- Clear*;
+PROCEDURE- WriteCh* (ch: CHAR);
 
 END Console.

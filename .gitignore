@@ -1,0 +1,15 @@
+Lib/Obj/*.oh
+Lib/Obj/*.c
+Obj/16*
+Obj/64*
+Obj/*.asm
+Obj/*.bin
+Obj/*.ihx
+Obj/*.lk
+Obj/*.lst
+Obj/*.map
+Obj/*.noi
+Obj/*.rel
+Obj/*.sym
+Obj/*.oh
+Obj/*.c

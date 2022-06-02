@@ -1,8 +1,8 @@
 MODULE ConsoleDemo; (*$MAIN*)
-IMPORT B := Basic, G := GRAPHIC;
+IMPORT SYSTEM, B := Basic, G := GRAPHIC;
 
 VAR
-  n: SHORTINT;
+  n: SYSTEM.BYTE;
 BEGIN
   G.Screen(0); G.Color(1, 15, 15);
   FOR n := 0 TO 7 BY 2 DO

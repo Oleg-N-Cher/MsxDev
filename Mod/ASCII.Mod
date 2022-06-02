@@ -1,7 +1,5 @@
-MODULE ASCII;
-IMPORT Console;
-VAR
-	n: INTEGER;
+MODULE ASCII; IMPORT SYSTEM, Console;
+  VAR n: SYSTEM.BYTE;
 BEGIN (*$MAIN*)
-	FOR n := 32 TO 127 DO Console.WriteCh(CHR(n)) END;
+  FOR n := 32 TO 127 DO Console.WriteCh(CHR(n)) END
 END ASCII.
